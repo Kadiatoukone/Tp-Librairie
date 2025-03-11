@@ -28,11 +28,14 @@ include "partials/header.php";
 
 <h1>Rechercher des Livres</h1>
 <form id="searchForm">
-    <input type="text" id="searchQuery" placeholder="Titre ou Genre">
-    <button type="submit">Rechercher</button>
+    <input type="text" class="search" placeholder="Titre ou Genre">
+    <button class= "searchBtn">Rechercher</button>
+    <button type="favBtn">Favoris</button>
 </form>
 
-<div id="results"></div>
+<div id="results">
+
+</div>
 
 
 <?php 

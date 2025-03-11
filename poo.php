@@ -61,12 +61,6 @@ class Livres {
     }
 }
 
-function getBooksByGenre($genre) {
-    $url = "https://www.googleapis.com/books/v1/volumes?q=subject:$genre&langRestrict=fr";
-    $response = file_get_contents($url);
-    return json_decode($response, true);
-}
-
 function getBooksByTitle($title) {
     $url = "https://www.googleapis.com/books/v1/volumes?q=intitle:$title&langRestrict=fr";
     $response = file_get_contents($url);
