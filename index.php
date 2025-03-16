@@ -25,17 +25,28 @@ include "partials/header.php";
 // php/views/search.php
 
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="scripts/index.js"></script>
+</head>
+<body>
+    <h1>Rechercher des Livres</h1>
+    <form id="searchForm">
+        <input type="text" class="search" placeholder="Titre ou Genre">
+        <button class= "searchBtn">Rechercher</button>
+        <button type="favBtn">Favoris</button>
+    </form>
 
-<h1>Rechercher des Livres</h1>
-<form id="searchForm">
-    <input type="text" class="search" placeholder="Titre ou Genre">
-    <button class= "searchBtn">Rechercher</button>
-    <button type="favBtn">Favoris</button>
-</form>
+    <div id="results">
 
-<div id="results">
+    </div>
+</body>
+</html>
 
-</div>
 
 
 <?php 
