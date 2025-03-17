@@ -32,6 +32,7 @@ include "partials/header.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script defer src="scripts/index.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Rechercher des Livres</h1>
@@ -42,7 +43,7 @@ include "partials/header.php";
     </form>
 
     <div id="results">
-
+        
     </div>
 </body>
 </html>
